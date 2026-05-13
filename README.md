@@ -88,7 +88,7 @@ An interactive prototype was built with Streamlit allowing users to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/heloc-loan-risk-classifier.git
+git clone https://github.com/AshwaUrsani/ML_project.git.git
 cd heloc-loan-risk-classifier
 
 # 2. Install dependencies
