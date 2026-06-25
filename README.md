@@ -1,7 +1,3 @@
-# 👋 Ashwa Ursani | Data & ML Portfolio
-
-Business analytics graduate from **Simon Business School, University of Rochester**, applying machine learning to real-world business problems. I build systems that drive measurable operational outcomes — not just models.
-
 ---
 
 ## 🚀 Featured Project: Loan Approval Decision Support System
