@@ -1,22 +1,25 @@
+Featured Project: Loan Approval Decision Support System
+Tools: Python · Scikit-learn · Streamlit · Decision Trees · Pandas
+Designed and deployed an end-to-end machine learning system to automate HELOC (Home Equity Line of Credit) screening for a simulated bank environment, replacing a fully manual review process.
+What I built:
 
+Trained a Decision Tree classifier on ~10,000 historical loan applications, handling missing data through mean imputation and missing-value indicator engineering
+Achieved 84% accuracy on negative predictions — the highest-stakes class for credit risk
+Built an interactive Streamlit prototype allowing loan officers to input applicant data and receive instant, explainable decisions
+The system identified the 4 most predictive features out of 24 (External Risk Estimate, Average Minimum File, Number of Satisfactory Trades, Net Fraction Revolving Burden) and surfaced them as the core inputs
 
+Business impact:
 
-Machine Learning Decision Support System (DSS) for Credit Evaluation
-Developed an end-to-end Machine Learning Decision Support System (DSS) to automate the preliminary screening and risk assessment of loan applications, successfully shifting operations from a manual review process to an automated pipeline. 
-For full methodology, data pipeline details, and performance metrics, please refer to the primary verification file: "Loan Approval ML Report.pdf". 
-📈 Core Business Impact & Results
-•	47% Workload Reduction: Automated the initial evaluation tier, cutting manual review volume for risk officers by nearly half and optimizing human resource allocation. 
-•	High-Precision Risk Filtering: Achieved an overall classification accuracy of 68%, featuring an 84% accuracy rate specifically for identifying and denying high-risk applications. 
-•	Regulatory Compliance: Utilized an interpretable architecture to ensure full compliance with financial auditing standards, generating clear, rule-based reasons for loan denials to provide transparency to applicants. 
-🛠️ Technical Stack & Implementation
-•	Predictive Modeling: Evaluated multiple machine learning algorithms (including Logistic Regression, Random Forests, XGBoost, and SVM). Selected a Decision Tree Classifier to perfectly balance predictive accuracy with structural interpretability and auditability. 
-•	Feature Engineering & Preprocessing: Executed data cleaning and missing value engineering on a historical dataset of ~10,000 credit profiles. Implemented mean imputation paired with original missing data indicator flags to preserve hidden predictive patterns in incomplete records. 
-•	Interactive Cloud Prototype: Built and deployed an interactive dashboard using Streamlit. To optimize user experience and prevent form-entry fatigue, the interface was designed to focus strictly on the top 4 highest-importance features output by the model (External Risk Estimate, Average Minimum File, Number of Satisfactory Trades, and Net Fraction Revolving Burden). 
-🔒 Production Governance & MLOps Strategies
-To mitigate model deterioration and performance drift over time in a live banking environment, the system design incorporates four production-stage strategies: 
-1.	Periodic Model Retraining: Standard automated pipelines to regularly refresh the model architecture on fresh financial quarters. 
-2.	Shadow Testing Frameworks: Deploying updated model variations in a parallel, non-breaking "shadow mode" to validate live performance variations against production benchmarks. 
-3.	Adaptive Thresholding: Giving risk management teams the ability to manually tune decision rules in real-time response to macroeconomic or regulatory shifts. 
-4.	Continuous Metric Monitoring: Setting up automated, real-time alerts on key statistical metrics (Accuracy, Precision, Recall, and F1-Score) to catch operational drift immediately. 
+Reduced loan officer manual review workload by 47%, freeing staff for higher-value decisions
+Provided applicants with transparent, rule-based denial explanations — critical for regulatory compliance (Fair Lending standards)
+Designed for long-term reliability through periodic retraining, shadow testing, and real-time performance monitoring
 
-<img width="468" height="626" alt="image" src="https://github.com/user-attachments/assets/02f34de9-5d57-4f09-9905-5fa6f36bdb04" />
+Why Decision Trees over alternatives: Evaluated Logistic Regression, Random Forests, XGBoost, SVM, and K-Means before selecting Decision Trees — the only model that satisfied all four constraints: automation, interpretability, accuracy, and regulatory auditability.
+
+What I Bring
+
+Translating ambiguous business problems into structured ML solutions
+Balancing model performance with explainability — especially in regulated industries
+Building prototypes that non-technical stakeholders can actually use
+Thinking beyond the model: deployment, monitoring, and long-term maintenance
+
