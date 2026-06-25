@@ -1,6 +1,5 @@
----
-
-## 🚀 Featured Project: Loan Approval Decision Support System
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-blueviolet?style=flat)
+## 🚀 Featured Project: Loan Approval Decision Support System | FinTech & Finance
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
