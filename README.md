@@ -1,25 +1,48 @@
-Featured Project: Loan Approval Decision Support System
-Tools: Python · Scikit-learn · Streamlit · Decision Trees · Pandas
-Designed and deployed an end-to-end machine learning system to automate HELOC (Home Equity Line of Credit) screening for a simulated bank environment, replacing a fully manual review process.
-What I built:
+# 👋 Ashwa Ursani | Data & ML Portfolio
 
-Trained a Decision Tree classifier on ~10,000 historical loan applications, handling missing data through mean imputation and missing-value indicator engineering
-Achieved 84% accuracy on negative predictions — the highest-stakes class for credit risk
-Built an interactive Streamlit prototype allowing loan officers to input applicant data and receive instant, explainable decisions
-The system identified the 4 most predictive features out of 24 (External Risk Estimate, Average Minimum File, Number of Satisfactory Trades, Net Fraction Revolving Burden) and surfaced them as the core inputs
+Business analytics graduate from **Simon Business School, University of Rochester**, applying machine learning to real-world business problems. I build systems that drive measurable operational outcomes — not just models.
 
-Business impact:
+---
 
-Reduced loan officer manual review workload by 47%, freeing staff for higher-value decisions
-Provided applicants with transparent, rule-based denial explanations — critical for regulatory compliance (Fair Lending standards)
-Designed for long-term reliability through periodic retraining, shadow testing, and real-time performance monitoring
+## 🚀 Featured Project: Loan Approval Decision Support System
 
-Why Decision Trees over alternatives: Evaluated Logistic Regression, Random Forests, XGBoost, SVM, and K-Means before selecting Decision Trees — the only model that satisfied all four constraints: automation, interpretability, accuracy, and regulatory auditability.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
-What I Bring
+> Designed and deployed an end-to-end ML system to automate HELOC screening, replacing a fully manual bank review process.
 
-Translating ambiguous business problems into structured ML solutions
-Balancing model performance with explainability — especially in regulated industries
-Building prototypes that non-technical stakeholders can actually use
-Thinking beyond the model: deployment, monitoring, and long-term maintenance
+### 🔧 What I Built
+- Trained a **Decision Tree classifier** on ~10,000 historical loan applications
+- Engineered missing-value indicators to preserve predictive signal without discarding incomplete records
+- Identified the **4 most predictive features** out of 24 and built an interactive **Streamlit prototype** for loan officers
+- Provided **rule-based denial explanations** so applicants understand exactly why they were rejected
 
+### 📈 Business Impact
+| Metric | Result |
+|---|---|
+| Accuracy on negative predictions | **84%** |
+| Reduction in loan officer workload | **47%** |
+| Applications processed in dataset | **~10,000** |
+
+### 🧠 Model Selection Rationale
+Evaluated 5 algorithms before choosing Decision Trees:
+
+| Model | Rejected Because |
+|---|---|
+| Logistic Regression | Assumes linear relationships — too rigid for financial data |
+| Random Forest | High accuracy but black-box — can't explain denials |
+| XGBoost | Same interpretability problem |
+| SVM | Expensive, limited transparency |
+| K-Means | Unsupervised — can't justify individual decisions |
+
+✅ **Decision Trees** were the only model satisfying all 4 constraints: automation, interpretability, accuracy, and regulatory auditability.
+
+---
+
+## 💼 What I Bring to a Team
+
+- 🔍 Translating ambiguous business problems into structured ML solutions
+- ⚖️ Balancing model performance with explainability — especially in regulated industries
+- 🖥️ Building prototypes non-technical stakeholders can actually use
+- 🔄 Thinking beyond the model: deployment, monitoring, and long-term maintenance
